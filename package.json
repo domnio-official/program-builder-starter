@@ -1,0 +1,46 @@
+{
+  "name": "domnio-app-builder",
+  "version": "0.1.0",
+  "description": "A minimal Electron + Vue application",
+  "main": "main/main.js",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js && electron-builder",
+    "build:win": "node scripts/build.js && electron-builder --win",
+    "build:mac": "node scripts/build.js && electron-builder --mac",
+    "build:linux": "node scripts/build.js && electron-builder --linux"
+  },
+  "repository": "https://github.com/deluze/electron-vue-template",
+  "author": {
+    "name": "Deluze",
+    "url": "https://github.com/Deluze"
+  },
+  "devDependencies": {
+    "@iconify-json/radix-icons": "^1.1.15",
+    "@iconify/vue": "^4.1.2",
+    "@types/node": "^22.5.0",
+    "@vitejs/plugin-vue": "^5.1.2",
+    "autoprefixer": "^10.4.20",
+    "chalk": "^4.1.2",
+    "chokidar": "^3.6.0",
+    "electron": "^32.0.1",
+    "electron-builder": "^24.13.3",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.2"
+  },
+  "dependencies": {
+    "@vueuse/core": "^11.0.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "electron-store": "^10.0.0",
+    "lucide-vue-next": "^0.435.0",
+    "pinia": "^2.2.2",
+    "radix-vue": "^1.9.4",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.4.38",
+    "vue-router": "4"
+  },
+  "packageManager": "pnpm@9.8.0"
+}
